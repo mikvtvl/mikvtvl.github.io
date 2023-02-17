@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         {router.pathname === '/' ? (
-          <title>Protocol API Reference</title>
+          <title>A/B Testing</title>
         ) : (
           <title>{`${pageProps.title} - Protocol API Reference`}</title>
         )}
