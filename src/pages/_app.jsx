@@ -9,6 +9,10 @@ import { useMobileNavigationStore } from '@/components/MobileNavigation'
 import '@/styles/tailwind.css'
 import 'focus-visible'
 
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-CPBL4Z29N0");
+
 function onRouteChange() {
   useMobileNavigationStore.getState().close()
 }
